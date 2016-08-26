@@ -145,6 +145,7 @@ class uchiwa (
   $manage_package       = $uchiwa::params::manage_package,
   $manage_services      = $uchiwa::params::manage_services,
   $manage_user          = $uchiwa::params::manage_user,
+  $upstart              = $uchiwa::params::upstart,
   $host                 = $uchiwa::params::host,
   $port                 = $uchiwa::params::port,
   $user                 = $uchiwa::params::user,
